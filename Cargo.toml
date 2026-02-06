@@ -1,6 +1,12 @@
 [package]
 name = "carbonmap"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
 
-[dependencies]
+authors = ["Ginger "]
+description = "Lock-free concurrent hash map for Rust with zero GC"
+license = "MIT"
+repository = "https://github.com/nanijnv1/carbonmap"
+readme = "README.md"
+keywords = ["concurrent", "lock-free", "hashmap", "atomic"]
+categories = ["concurrency", "data-structures"]
