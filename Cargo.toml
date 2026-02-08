@@ -1,6 +1,6 @@
 [package]
 name = "carbonmap"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 
 authors = ["Ginger "]
@@ -10,3 +10,5 @@ repository = "https://github.com/nanijnv1/carbonmap"
 readme = "README.md"
 keywords = ["concurrent", "lock-free", "hashmap", "atomic"]
 categories = ["concurrency", "data-structures"]
+[dependencies]
+parking_lot = "0.12.5"
