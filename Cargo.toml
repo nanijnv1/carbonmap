@@ -12,3 +12,13 @@ keywords = ["concurrent", "lock-free", "hashmap", "atomic"]
 categories = ["concurrency", "data-structures"]
 [dependencies]
 parking_lot = "0.12.5"
+
+[dev-dependencies]
+criterion = "0.5"
+dashmap = "5"
+parking_lot = "0.12.5"
+
+
+[[bench]]
+name = "compare"
+harness = false
